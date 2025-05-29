@@ -1,7 +1,9 @@
 # 🎵 Summer Hit Predictor
 
-**Oracle AI Hackathon 2025**  
-Predicción de popularidad musical e interpretación de características clave para identificar **la canción del verano**.
+**Oracle AI Hackathon 2025**
+En este proyecto, desarrollado para la Hackathon de Oracle 2025, nos centramos en la predicción de la popularidad de canciones para identificar la próxima **canción del verano**. Utilizamos un conjunto de datos con características musicales que incluyen atributos acústicos, rítmicos y categóricos, junto con información del género y modo musical.
+
+El enfoque principal del proyecto es doble: por un lado, lograr una predicción precisa del nivel de popularidad de cada canción, y por otro, ofrecer interpretabilidad sobre qué características son determinantes en esa popularidad.
 
 ---
 
@@ -54,7 +56,8 @@ Se probaron y compararon múltiples modelos para balancear precisión e interpre
 
 - **Modelos lineales**:
   - `LinearRegression`
-  - `Risso
+  - `Lasso`
+  - `Ridge`
   - `ElasticNet` (con ajuste de regularización)
 
 - **Modelos no lineales**:
